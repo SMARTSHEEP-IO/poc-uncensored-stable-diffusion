@@ -22,10 +22,7 @@ def generate_image(pipe, prompt, seed=None):
 
 def main():
     pipe = load_model()
-    prompt = ("ultra realistic body of Ali Khamenei leader of Iran, "
-              "He is in bed naked and feeling gay, hyper detail. The image should be "
-              "hyper detailed, shot as if with a Canon EOS R3 and a Nikon lens at f/1.4, ISO 200, 1/160s, "
-              "in 8K RAW format, unedited with a symmetrical balance.")
+    prompt = ("ultra realistic close up portrait ((beautiful pale cyberpunk female with heavy black eyeliner)), blue eyes, shaved side haircut, hyper detail, cinematic lighting, magic neon, dark red city, Canon EOS R3, nikon, f/1.4, ISO 200, 1/160s, 8K, RAW, unedited, symmetrical balance, in-frame, 8K")
 
     # Set seed for reproducibility
     seed = 230908843746
